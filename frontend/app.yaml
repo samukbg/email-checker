@@ -1,0 +1,5 @@
+name: email-checker
+app_id: da_nQgIotrUvV4a
+owner: samuelbg04
+package: '.'
+kind: wasmer.io/App.v0

@@ -1,0 +1,16 @@
+[package]
+name = "samuelbg04/email-checker"
+version = "0.1.41"
+description = "Email validation checker frontend"
+license = "MIT"
+
+[dependencies]
+"wasmer/static-web-server" = "^1"
+
+[fs]
+"/public" = "./out"
+
+[[command]]
+name = "script"
+module = "wasmer/static-web-server:webserver"
+runner = "https://webc.org/runner/wasi"

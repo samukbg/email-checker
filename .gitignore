@@ -1,0 +1,214 @@
+# Ruby Backend Files
+# Gem dependencies
+/vendor/
+.bundle/
+/Gemfile.lock
+*.gem
+
+# Ruby version management
+.ruby-version
+.ruby-gemset
+.rvmrc
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Logs
+*.log
+log/
+logs/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output/
+
+# SQLite databases
+*.sqlite3
+*.db
+
+# Redis dump file
+dump.rdb
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Ruby specific
+.sass-cache/
+*.rbc
+/.config
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+.byebug_history
+
+# RubyMotion specific
+.dat*
+.repl_history
+build/
+*.bridgesupport
+build-iPhoneOS/
+build-iPhoneSimulator/
+
+# Documentation cache and generated files
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+# Environment normalization
+/vendor/bundle
+/lib/bundler/man/
+
+# Next.js Frontend Files
+# Dependencies
+**/node_modules/
+**/.pnp
+**/.pnp.*
+**/.yarn/*
+!**/.yarn/patches
+!**/.yarn/plugins
+!**/.yarn/releases
+!**/.yarn/versions
+
+# Testing
+**/coverage/
+
+# Next.js
+**/.next/
+**/out/
+
+# Production
+**/build/
+**/dist/
+
+# Misc
+**/*.pem
+
+# Debug
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/.pnpm-debug.log*
+
+# Vercel
+**/.vercel
+
+# TypeScript
+**/*.tsbuildinfo
+**/next-env.d.ts
+
+# ESLint cache
+**/.eslintcache
+
+# Optional npm cache directory
+**/.npm
+
+# Optional REPL history
+**/.node_repl_history
+
+# Output of 'npm pack'
+**/*.tgz
+
+# Yarn Integrity file
+**/.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+**/.cache
+**/.parcel-cache
+
+# Next.js build output
+**/.next
+
+# Nuxt.js build / generate output
+**/.nuxt
+**/dist
+
+# Storybook build outputs
+**/.out
+**/.storybook-out
+
+# Temporary folders
+**/tmp/
+**/temp/
+
+# Runtime data
+**/pids
+**/*.pid
+**/*.seed
+**/*.pid.lock
+
+# Dependency directories
+**/jspm_packages/
+
+# Optional eslint cache
+**/.eslintcache
+
+# Microbundle cache
+**/.rpt2_cache/
+**/.rts2_cache_cjs/
+**/.rts2_cache_es/
+**/.rts2_cache_umd/
+
+# Optional REPL history
+**/.node_repl_history
+
+# Output of 'npm pack'
+**/*.tgz
+
+# Yarn Integrity file
+**/.yarn-integrity
+
+# dotenv environment variables file
+**/.env
+**/.env.test
+**/.env.local
+**/.env.production
+**/.env.development
+
+# Stores VSCode versions used for testing VSCode extensions
+**/.vscode-test
+
+# Project specific files to ignore
+emails.txt
+test_emails.txt
+*.txt
+
+# Docker
+.dockerignore
+Dockerfile*
+docker-compose*.yml
+compose.yml
+
+# Deployment files
+fly.toml
+Procfile
