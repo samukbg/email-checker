@@ -1,4 +1,4 @@
-# Email Validator
+# Email Checker
 
 Email Validator is a full-stack email verification application with unparalleled accuracy. It features a Ruby backend deployed on Fly.io using the Email library for comprehensive email validation, and a Next.js frontend deployed on Wasmer Edge for fast, global access.
 
